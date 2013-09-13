@@ -68,5 +68,26 @@ abstract class AbstractCompressor implements CompressorInterface
         return finfo_file($finfo, $path);
     }
 
+    /**
+     * Minifies current data
+     *
+     * @return CompressorInterface
+     */
+    public function minify()
+    {
+
+    }
+
+    /**
+     * Embeds data URIs
+     * @param string $rootDir Root dir
+     *
+     * @return CompressorInterface
+     */
+    public function embed($rootDir)
+    {
+
+    }
+
 
 }
