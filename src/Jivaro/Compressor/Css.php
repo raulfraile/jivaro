@@ -44,7 +44,7 @@ class Css extends AbstractCompressor implements MinifyInterface
     {
         $this->rootDir = $rootDir;
 
-        $this->currentData = preg_replace_callback('/url\(\s?[\"\']?([^\"\')]+)\s?[\"\']?\)/', array($this, 'replace'), $this->currentData);
+        $this->currentData = preg_replace_callback('/url\(\s?[\"\']?(?!data:)([^\"\')]+)\s?[\"\']?\)/', array($this, 'replace'), $this->currentData);
 
         return $this;
     }
