@@ -1,8 +1,8 @@
 {
     "name": "raulfraile/jivaro",
     "description": "PHP library to minify CSS, JS and HTML",
-    "version": "1.0",
-    "keywords": ["minify"],
+    "version": "1.0.0-beta1",
+    "keywords": ["minify", "css", "js"],
     "homepage": "https://github.com/raulfraile/jivaro",
     "type": "library",
     "license": "MIT",
